@@ -46,6 +46,10 @@ a h1{
 }
 
 /*BODY*/
+
+body {
+	margin: 0px;
+}
 .frame {
 	position: fixed;
 	width: 35%;
@@ -53,11 +57,11 @@ a h1{
 }
 
 .left {
-	margin-left: 15%;
+	margin-left: 15.3%;
 }
 
 .right {
-	margin-left: 55%;
+	margin-left: 55.7%;
 	z-index: 100 !important;
 }
 
@@ -93,16 +97,15 @@ a h1{
 }
 
 .box1 {
-	width:40%;
+	width:80%;
 	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_01.jpg");
-	background-size: cover;
-	background-position: 0% 50%;
+	margin-left: 13%;
 }
 
 .box2 {
 	background-image: url("../desktop/ELA_LOGO.png");
-	width:40%;
-	margin-left: 0px;
+	width:35%;
+	margin-left: -38%;
 }
 .box3 {
 	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_02.jpg");
