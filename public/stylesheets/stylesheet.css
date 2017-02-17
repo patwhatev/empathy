@@ -15,6 +15,10 @@
   src: url("../fonts/HelveticaNeueLTStd-HvExO.otf") format("opentype");
 }
 
+.player {
+	display: none;
+}
+
 .nav {
 	bottom:0;
 	position: fixed;
