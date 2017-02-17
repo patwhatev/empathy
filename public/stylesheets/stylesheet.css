@@ -98,6 +98,16 @@ body {
 	background-repeat: no-repeat;
 }
 
+.image-frame-sense{
+	width: 80%;
+	float:left;
+	margin-left: 13%;
+	height: 650px;
+	background-size:contain;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
 .tracklist {
 	background-image: url("../desktop/TRACKLIST.png");	
 }
@@ -106,7 +116,7 @@ body {
 
 .sense {
 	width: 40%;
-	margin-top: 109%;
+	margin-top: 120%;
 	margin-left: 60%;
 }
 
@@ -198,14 +208,6 @@ body {
 	}
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1300px)
-	  {
-
-	.image-frame {
-		margin: -2% 0% -2% 13%;
-	}
-}
-
 
 /* large screens */
 @media screen and (min-width: 1300px) {
@@ -218,6 +220,11 @@ body {
 
 		.left-frame {
 		margin-left: 16.3%;
+	}
+
+	.sense {
+		margin-top: 105%;
+		width: 25%
 	}
 }
 
