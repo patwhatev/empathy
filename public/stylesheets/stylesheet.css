@@ -75,6 +75,15 @@ body {
 	z-index: -100;
 }
 
+.invisible {
+    height: 100%;
+    z-index: 5000 !important;
+    margin-top: 15%;
+	float: none;
+	position: absolute;
+	margin-top: 200;
+}
+
 .image-frame{
 	width: 80%;
 	float:left;
@@ -104,7 +113,6 @@ body {
 }
 
 .box2 {
-	background-image: url("../desktop/ELA_LOGO.png");
 	width:35%;
 	margin-left: -38%;
 }
