@@ -24,7 +24,7 @@
 	font-family: 'HelvNeue';
 	color: black;
 	list-style-type: none;
-	font-size: .8em;
+	font-size: .7em;
 }
 
 .nav a {
@@ -36,9 +36,13 @@
 	width: 10%;
 }
 
-h1{
+a h1{
 	text-align: center;
-	margin-top: 20%
+	margin-top: 20%;
+	font-family: 'HelvNeue' !important;
+	color: black;
+	list-style-type: none;
+	text-decoration: none;
 }
 
 /*BODY*/
