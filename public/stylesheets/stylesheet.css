@@ -1,0 +1,135 @@
+/*NAV*/
+
+@font-face {
+  font-family: 'ACaslon';
+  src: url("../fonts/ACaslonPro-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HelvNeue';
+  src: url("../fonts/HelveticaNeueLTStd-HvEx.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HelvNeue0';
+  src: url("../fonts/HelveticaNeueLTStd-HvExO.otf") format("opentype");
+}
+
+.nav {
+	bottom:0;
+	position: fixed;
+	height: : 100%;
+	margin-left: 20px;
+	padding: 10px;
+	font-family: 'HelvNeue';
+	color: black;
+	list-style-type: none;
+	font-size: .8em;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-item {
+	width: 10%;
+}
+
+h1{
+	text-align: center;
+	margin-top: 20%
+}
+
+/*BODY*/
+.frame {
+	position: fixed;
+	width: 35%;
+	margin-top: 20px;
+}
+
+.left {
+	margin-left: 15%;
+}
+
+.right {
+	margin-left: 55%;
+}
+
+#content-zone {
+}
+
+.row {
+	padding: 0px;
+}
+
+.image-frame{
+	width: 80%;
+	float:left;
+	margin-left: 13%;
+	height: 650px;
+	background-size:contain;
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.tracklist {
+	background-image: url("../desktop/TRACKLIST.png");	
+}
+
+/*LOOKBOOK*/
+
+.box1 {
+	width:40%;
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_01.jpg");
+	background-size: cover;
+	background-position: 0% 50%;
+}
+
+.box2 {
+	background-image: url("../desktop/ELA_LOGO.png");
+	width:40%;
+	margin-left: 0px;
+}
+.box3 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_02.jpg");
+	
+}
+.box4 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_03.jpg");	
+}
+
+.box5 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_04.jpg");
+}
+
+.box6 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_05.jpg");
+	
+}
+.box7 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_06.jpg");
+	
+}
+.box8 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_07.jpg");	
+}
+
+.box9 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_08.jpg");
+	
+}
+.box10 {
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_09.jpg");
+	
+}
+.box11{
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_010.jpg");	
+}
+.box12{
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_011.jpg");	
+}
+.box13{
+	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_012.jpg");	
+}
+
