@@ -62,7 +62,6 @@ body {
 
 .right {
 	margin-left: 55.7%;
-	z-index: 100 !important;
 }
 
 #content-zone {
@@ -70,6 +69,10 @@ body {
 
 .row {
 	padding: 0px;
+}
+
+.row1 {
+	z-index: -100;
 }
 
 .image-frame{
@@ -80,7 +83,6 @@ body {
 	background-size:contain;
 	background-position:center;
 	background-repeat: no-repeat;
-	
 }
 
 .tracklist {
@@ -93,7 +95,6 @@ body {
 	width: 40%;
 	margin-top: 109%;
 	margin-left: 60%;
-	z-index: 5000 !important;
 }
 
 .box1 {
@@ -109,6 +110,7 @@ body {
 }
 .box3 {
 	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_02.jpg");
+	z-index: -500 !important;
 	
 }
 .box4 {
