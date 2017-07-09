@@ -54,6 +54,7 @@ a h1{
 body {
 	margin: 0px;
 }
+
 .frame {
 	position: fixed;
 	width: 35%;
@@ -161,5 +162,25 @@ body {
 }
 .box13{
 	background-image: url("../desktop/lookbook/ELA_LOOKBOOK_012.jpg");	
+}
+
+@media only screen 
+  and (min-device-width: 1300px) {
+
+	.frame {
+		position: fixed;
+		width: 30%;
+		margin-top: 20px;
+		border: red solid 1px;
+	}
+
+	.left {
+		margin-left: 20.8%;
+	}
+
+	.right {
+		margin-left: 55.2%;
+	}
+
 }
 
